@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: escribir hola por la pantalla 
-      run:|
+      run: |
         echo "hola es mi primer git action"
         date
         java -v || echo "java no instalado"        
