@@ -1,0 +1,12 @@
+name: mostrar hola 
+on:
+  push:
+    branch: [ main ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: escribir hola por la pantalla 
+      run:
+        echo "hola es mi primer git action"
+        
