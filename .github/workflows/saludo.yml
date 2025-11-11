@@ -10,4 +10,6 @@ jobs:
       run: |
         echo "hola es mi primer git action"
         date
-        java -v || echo "java no instalado"        
+        ls
+        echo "version de java"
+        java -version || echo "java no instalado"        
